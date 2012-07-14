@@ -36,3 +36,12 @@ describe "GET 'about' " do
     get 'about'
     response.should contain("Ruby on Rails Tutorial Sample App | About")
   end
+<<<<<<< HEAD
+=======
+  def help
+    @title = "Help"
+  end  
+end
+ 
+end
+>>>>>>> filling-in-layout
